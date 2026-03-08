@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "palletizer-full-stack"
+version = "0.1.0"
+description = "The open-source software foundation for high-throughput end-of-line palletising cells."
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.11"
+authors = [
+    {name = "iceccarelli"},
+]
+keywords = [
+    "palletizer",
+    "palletiser",
+    "robotics",
+    "industrial-automation",
+    "robot-arm",
+    "end-of-line",
+    "pick-and-place",
+    "open-source",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Manufacturing",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "ruff>=0.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/iceccarelli/palletizer"
+Repository = "https://github.com/iceccarelli/palletizer"
+Issues = "https://github.com/iceccarelli/palletizer/issues"
+Changelog = "https://github.com/iceccarelli/palletizer/blob/main/CHANGELOG.md"
+
+[project.scripts]
+palletizer = "palletizer_full.run:main"
+
+[tool.setuptools.packages.find]
+include = ["palletizer_full*"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM", "RUF"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"

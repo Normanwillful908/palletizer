@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  palletizer:
+    build: .
+    container_name: palletizer
+    environment:
+      - CYCLE_HZ=50.0
+      - SAFETY_MARGIN_M=0.4
+      - MAX_TEMPERATURE_C=70.0
+      - BATTERY_CAPACITY_WH=1000.0
+      - PALLETIZER_ENV=FACTORY
+    restart: unless-stopped
